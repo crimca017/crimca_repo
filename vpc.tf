@@ -170,3 +170,4 @@ output "vpc_public_sg_id" {
 output "vpc_private_sg_id" {
   value = "${aws_security_group.vpc_private_sg.id}"
 }
+
